@@ -1,7 +1,12 @@
 {
     "name": "irfanchowdhury/unique-slug-generate",
     "description": "A simple unique slug generator for Laravel Eloquent Model",
-    "type": "composer-plugin",
+    "keywords": [
+        "unique_slug_generate",
+        "laravel",
+        "unique-slug"
+    ],
+    "homepage": "https://github.com/Irfan-Chowdhury/unique-slug-generate",
     "license": "MIT",
     "autoload": {
         "psr-4": {
