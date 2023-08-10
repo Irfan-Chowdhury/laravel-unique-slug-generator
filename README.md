@@ -1,4 +1,4 @@
-# Laravel-unique-slug-generator
+# Unique-slug-generate
 A simple but beautiful unique slug generator for Laravel eloquent model.
 
 ---
@@ -144,3 +144,7 @@ return [
 ];
 
 ```
+
+
+### This package is developed for learning purpose. 
+### Credit goes to ManiruzzamanAkash (https://github.com/ManiruzzamanAkash/laravel-unique-slug-generator) 
