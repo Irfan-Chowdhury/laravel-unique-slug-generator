@@ -1,0 +1,32 @@
+{
+    "name": "irfan/laravel-unique-slug",
+    "description": "A simple unique slug generator for Laravel Eloquent Model",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Irfan\\LaravelUniqueSlug\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Irfan Chowdhury",
+            "email": "irfanchowdhury80@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.4",
+        "another-vendor/package": "1.*"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Irfan\\LaravelUniqueSlug\\UniqueSlugServiceProvider"
+            ],
+            "aliases": {
+                "UniqueSlug": "Irfan\\LaravelUniqueSlug\\UniqueSlug"
+            }
+        }
+    }
+}
