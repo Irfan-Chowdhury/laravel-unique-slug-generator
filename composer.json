@@ -1,5 +1,5 @@
 {
-    "name": "irfanchowdhury/laravel-unique-slug",
+    "name": "irfanchowdhury/unique-slug-generate",
     "description": "A simple unique slug generator for Laravel Eloquent Model",
     "type": "composer-plugin",
     "license": "MIT",
